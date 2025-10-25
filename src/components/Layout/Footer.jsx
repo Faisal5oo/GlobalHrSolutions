@@ -12,20 +12,20 @@ const Footer = () => {
           {/* Left Side - Text & Email Input */}
           <div className="w-full md:w-1/2 text-center md:text-left space-y-4">
             <h2 className="text-3xl sm:text-4xl font-semibold">
-              Ready to Find Your<br /> Perfect Talent?
+              Looking to Hire or Get Hired?
             </h2>
             <p className="text-gray-400 text-sm sm:text-base">
-              Get in touch for a free consultation about your international recruitment needs.
+              Partner with Global Hire Solution and experience recruitment redefined.
             </p>
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href={"/contact"}>
                 <button className="bg-[#6c1293] text-white rounded-full shadow-md hover:bg-[#35358B] hover:text-white px-6 py-2 rounded-lg font-medium transition w-full sm:w-auto">
-                  Get Started
+                  Contact Us
                 </button>
               </Link>
               <Link href={"/job-application"}>
                 <button className="bg-[#35358B] text-white rounded-full shadow-md hover:bg-[#6c1293] hover:text-white px-6 py-2 rounded-lg font-medium transition w-full sm:w-auto">
-                  Apply Now
+                  Get Started
                 </button>
               </Link>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Right Side - Logo */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="text-3xl font-bold text-[#6c1293]">
-              GlobalRecruit
+              Global Hire Solution
             </div>
           </div>
         </div>
@@ -64,9 +64,9 @@ const Footer = () => {
           {/* Right - Copyright */}
           <div className="w-full md:w-1/2 flex flex-col items-center md:items-end text-center md:text-right">
             <p className="text-gray-400 text-sm sm:text-base">
-              Connecting Global Talent with Opportunity
+              🌍 Global Talent. Local Impact.
             </p>
-            <p className="text-gray-500 mt-2 text-sm sm:text-base">© 2025 GlobalRecruit — All Rights Reserved</p>
+            <p className="text-gray-500 mt-2 text-sm sm:text-base">© 2025 Global Hire Solution — All Rights Reserved</p>
           </div>
         </div>
       </div>

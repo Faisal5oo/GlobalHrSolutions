@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-[#6c1293]">
-            GlobalRecruit
+          <Link href="/" className="text-2xl font-bold text-white">
+            Global Hire Solution
           </Link>
           {/* <Image src="/logo.png" alt="logo" width={100} height={100} /> */}
           {/* Desktop Menu */}

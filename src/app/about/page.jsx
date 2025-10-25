@@ -9,7 +9,7 @@ const aboutData = [
     title: "Our Mission:",
     heading: "Connecting Global Talent with Opportunity",
     description:
-      "At GlobalRecruit, we bridge the gap between exceptional international talent and leading companies worldwide. Our mission is to facilitate successful cross-border placements that drive business growth and create meaningful career opportunities.",
+      "At Global Hire Solution, we specialize in connecting companies with the right talent and helping professionals find their ideal career paths worldwide. With years of expertise in international recruitment, staffing, and HR solutions, we deliver seamless hiring experiences for both employers and job seekers.",
   },
   {
     id: 2,
@@ -17,15 +17,15 @@ const aboutData = [
     title: "Who We Are:",
     heading: "International Recruitment Specialists",
     description:
-      "We are a specialized recruitment agency with over 15 years of experience in international talent acquisition. Our team of HR professionals, immigration specialists, and industry experts work together to ensure successful placements across borders, cultures, and industries.",
+      "We are a specialized recruitment agency with extensive experience in international talent acquisition. Our team of HR professionals, immigration specialists, and industry experts work together to ensure successful placements across borders, cultures, and industries.",
   },
   {
     id: 3,
     subtitle: "",
-    title: "Global Presence",
+    title: "Global Talent Network",
     heading: "",
     description:
-      "With offices in 12 countries and partnerships across 50+ markets, we have the local knowledge and global reach to source the best talent for your organization, regardless of location.",
+      "Access to diverse professionals across industries worldwide. We connect you with skilled professionals across different countries while ensuring compliance and relocation support.",
   },
   {
     id: 4,
@@ -33,15 +33,15 @@ const aboutData = [
     title: "Industry Expertise",
     heading: "",
     description:
-      "We specialize in technology, finance, healthcare, engineering, and manufacturing sectors, with deep understanding of industry-specific requirements and regulatory compliance needs.",
+      "We serve Information Technology (IT), Sales & Marketing, Finance & Accounting, Healthcare & Pharmaceuticals, Engineering & Manufacturing, Customer Support & BPO, and Education & Training sectors with deep understanding of industry-specific requirements.",
   },
   {
     id: 5,
     subtitle: "",
-    title: "Cultural Intelligence",
+    title: "Fast & Tailored Solutions",
     heading: "",
     description:
-      "Our cultural expertise ensures successful integration of international candidates, with comprehensive support for relocation, visa processes, and cultural adaptation.",
+      "We reduce hiring time without compromising quality. Our customized recruitment approach ensures every client gets personalized service that meets their specific needs and timeline requirements.",
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ const aboutData = [
     title: "Trusted Partnerships",
     heading: "",
     description:
-      "We build long-term relationships with both clients and candidates, providing ongoing support and ensuring successful placements that benefit all parties involved. With GlobalRecruit, you're not just hiring talent—you're building global success stories.",
+      "We build long-term relationships with both clients and candidates, providing transparent, professional, and result-driven service. With Global Hire Solution, you're not just hiring talent—you're building global success stories.",
   },
 ];
 
@@ -85,12 +85,12 @@ const AboutUs = () => {
         <div className="flex justify-center space-x-4 my-10">
           <Link href="/contact">
             <button className="bg-[#6c1293] text-white py-3 px-6 rounded-full shadow-md hover:bg-[#35358B] hover:text-white transition">
-              Get Started
+              Contact Us
             </button>
           </Link>
           <Link href="/job-application">
             <button className="bg-[#35358B] text-white py-3 px-6 rounded-full shadow-md hover:bg-[#6c1293] hover:text-white transition">
-              Apply Now
+              Get Started
             </button>
           </Link>
         </div>

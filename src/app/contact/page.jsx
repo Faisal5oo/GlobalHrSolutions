@@ -70,30 +70,27 @@ const ContactUs = () => {
             </div>
 
             <div className="my-10 space-y-8">
-              <div className="flex items-center space-x-4 mb-4">
-                <Phone className="text-[#6c1293]" />
-                <div className="flex flex-col">
-                  <span className="text-gray-300">Call For Consultation</span>
-                  <span className="text-[#6c1293] text-lg">+1 (555) 123-4567</span>
-                </div>
-              </div>
+              
 
               <div className="flex items-center space-x-4 mb-4">
-                <Mail className="text-[#6c1293]" />
+                <Mail className="text-white" />
                 <div className="flex flex-col">
-                  <span className="text-gray-300">Send Us Email</span>
-                  <span className="text-[#6c1293] text-lg">
-                    info@globalrecruit.com
-                  </span>
+                  <span className="text-white">Send Us Email</span>
+                  <a 
+                    href="mailto:hello@globalhiresolution.com"
+                    className="text-white text-lg hover:text-[#6c1293] transition-colors"
+                  >
+                    hello@globalhiresolution.com
+                  </a>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
-                <MapPin className="text-[#6c1293]" />
+                <MapPin className="text-white" />
                 <div className="flex flex-col">
-                  <span className="text-gray-300">Global Headquarters</span>
-                  <span className="text-[#6c1293] text-lg">
-                    New York, NY, USA
+                  <span className="text-white">Global Headquarter</span>
+                  <span className="text-white text-lg">
+                    Pakistan
                   </span>
                 </div>
               </div>
